@@ -5,7 +5,7 @@ function delay(time) {
 
  /////// Init Program ////////////////////////////////////////////////////////
 //Import Data
-import ChampionsList from "./Assets/Champions.json" assert {type: 'json'};
+import ChampionsList from "./Assets/Champions.json";
 //Div Refs
 var ChampionsListDiv = document.getElementById("ChampionsList");
 var WinnerDiv = document.getElementById("WinnerChempion");
